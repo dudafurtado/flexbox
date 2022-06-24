@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DADDE1;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeirobloco {
+    width: 680px;
+    height: 380px;
+    margin: 50px auto 70px;
+    padding: 60px 50px 54px;
+
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+}
+
+.nearby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 33px;
+}
+
+.nearby h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.nearby a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pessoas1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    padding: 25px 35px 6px;
+}
+
+.pessoas1 h3 {
+    margin: 15px 0px 22px;
+}
+
+.soma {
+    background-color: black;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+}
+
+.segundobloco {
+    width: 451px;
+    height: 653px;
+    margin: 0px auto 59px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+    padding: 59px 50px 10px;
+}
+
+.pessoas2 {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.contacts h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.contacts span {
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 5px;
+}
+.contacts {
+    margin-bottom: 62px;
+}
+
+.informacoes {
+    margin-left: 20px ;
+    margin-right: 115px;
+}
+
+.chat {
+    width: 34px;
+    height: 34px;
+}
+
+.everyone a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding: 18px 30px;
+    background-color: black;
+    border-radius: 60px;
+}
+
+.segundobloco h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.segundobloco span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.distancia {
+    margin-bottom: 60px; 
+}
