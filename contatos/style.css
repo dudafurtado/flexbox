@@ -74,6 +74,8 @@ section {
 }
 
 .soma {
+    cursor: pointer;
+
     background-color: black;
     width: 36px;
     height: 36px;
@@ -119,6 +121,8 @@ section {
 }
 
 .chat {
+    cursor: pointer;
+    
     width: 34px;
     height: 34px;
 }
